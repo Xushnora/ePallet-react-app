@@ -1,0 +1,36 @@
+.ulList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.inItem {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.inItem .bx{
+    font-size: 20px;
+}
+
+.inItemLink {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.backBtn {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+.backBtn span {
+    font-size: 16px;
+    margin-left: 5px;
+}

@@ -1,0 +1,23 @@
+.navbarList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbarLink {
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    font-size: 18px;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.navbarLink:hover {
+    color: #222;
+}
+
+.active {
+    color: #222;
+}

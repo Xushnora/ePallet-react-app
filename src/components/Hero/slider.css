@@ -1,0 +1,43 @@
+.sliderBox {
+    width: 200px;
+    /* border: 2px solid red; */
+}
+
+.juiceImg {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.sliderList {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.sliderItem {
+    width: 100px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.activeImg {
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 8px;
+}
+
+.sliderItem:focus {
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 8px;
+}
+
+.inImg {
+    width: 80px;
+    height: 100px;
+}

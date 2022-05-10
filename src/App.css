@@ -1,0 +1,15 @@
+.App {
+  /* text-align: center; */
+}
+
+.container {
+  width: 1230px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.threeBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

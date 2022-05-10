@@ -1,0 +1,81 @@
+
+.headerBox {
+    display: flex;
+    align-items: center;
+}
+
+.logobox {
+    width: 110px;
+    height: 35px;
+    background-color: red;
+}
+
+.imgLogo {
+    width: 120px;
+    height: 40px;
+    /* object-fit: cover; */
+}
+
+.searchBox {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 8px;
+    margin:0 80px;
+    padding: 8px;
+    padding-right: 25px;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+}
+
+.inputBox .bx {
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+}
+
+.inputBox input{
+   border: none;
+   outline: none;
+   padding: 0 15px;
+   color: rgb(119, 119, 119);
+   font-weight: 500;
+   font-size: 16px;
+   
+}
+
+.selects {
+    width: 150px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(141, 141, 141);
+    border-radius: 6px;
+}
+
+.btnGroup {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLink {
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.headerLink .bx {
+    font-size: 20px;
+    margin-right: 6px;
+}
+
