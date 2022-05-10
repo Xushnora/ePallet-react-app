@@ -6,15 +6,15 @@ function ItemIn() {
         <div className="container">
             <ul className="ulList">
                 <li className="inItem">
-                    <a className="inItemLink" href="#">Frozen</a>
+                    <a className="inItemLink" >Frozen</a>
                     <i className='bx bx-chevron-right'></i>
                 </li>
                 <li className="inItem">
-                    <a className="inItemLink" href="#">Juice</a>
+                    <a className="inItemLink" >Juice</a>
                     <i className='bx bx-chevron-right'></i>
                 </li>
                 <li className="inItem">
-                    <a className="inItemLink" href="#">Mott's Unsweetened Applesauce</a>
+                    <a className="inItemLink" >Mott's Unsweetened Applesauce</a>
                 </li>
             </ul>
             <button className="backBtn">

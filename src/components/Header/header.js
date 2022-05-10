@@ -8,7 +8,7 @@ function Header() {
             <div className="container">
                 <div className="headerBox">
                     <div className="logobox">
-                        <a href="#">
+                        <a>
                             <img className="imgLogo" src={logoImg} />
                         </a>
                     </div>
@@ -29,15 +29,15 @@ function Header() {
                         </select>
                     </div>
                     <div className="btnGroup">
-                        <a className="headerLink" href="#">
+                        <a className="headerLink">
                             <i className='bx bx-envelope'></i>
                             <span>Orders</span>
                         </a>
-                        <a className="headerLink" href="#">
+                        <a className="headerLink">
                             <i className='bx bx-credit-card-alt' ></i>
                             <span>Cards</span>
                         </a>
-                        <a className="headerLink" href="#">
+                        <a className="headerLink">
                             <i className='bx bx-user'></i>
                             <span>Profile</span>
                         </a>

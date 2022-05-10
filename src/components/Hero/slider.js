@@ -2,12 +2,11 @@ import React from "react";
 import "./slider.css"
 
 // images
-import juiceImg from "../../components/asset/imgs/juice.jpg"
+import juiceImg from "../../components/asset/imgs/sharbat.jpg"
 // import juiceBigImg from "../../components/asset/imgs/juiceSmall.jpg"
 
 function Slider() {
     return (
-        <div className="container">
             <div className="sliderBox">
                 <div className="bigImg">
                     <img className="juiceImg" src={juiceImg} />
@@ -32,7 +31,6 @@ function Slider() {
                     </ul>
                 </div>
             </div>
-        </div>
     )
 }
 

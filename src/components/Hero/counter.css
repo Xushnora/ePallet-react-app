@@ -22,5 +22,173 @@
 }
 
 .sum {
+    margin-right: 15px;
     display: inline;
+    font-size: 25px;
+    font-weight: 600;
 }
+
+.priceInput {
+    display: flex;
+    width: 85px;
+    height: 52px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.onePlus {
+    border: 1px solid #222;
+    border-top-right-radius: 6px;
+    height: 25px;
+    width: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+
+.oneMinus {
+    width: 23px;
+    border: 1px solid #222;
+    border-bottom-right-radius: 6px;
+    border-bottom: none;
+    border-right: none;
+    height: 25px;
+    outline: none;
+}
+
+.onePlus .bx{
+    color: rgb(109, 109, 109);
+    font-size: 12px;
+}
+
+.oneMinus .bx{
+    color: rgb(109, 109, 109);
+    font-size: 12px;
+}
+
+.numCount {
+    width: 80px;
+    height: 56px;
+    /* border: 1px solid #111; */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    border-right: none;
+}
+
+.handleBtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.priceBtnBox {
+    margin-left: 20px;
+}
+
+.cardsBtn {
+    height: 52px;
+    border-radius: 6px;
+    padding: 0 25px;
+    background-color: #0096d9;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+
+.PalletBtn {
+    height: 52px;
+    border-radius: 6px;
+    padding: 0 25px;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #333;
+    margin-left: 15px;
+}
+
+.downSpan {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.motts {
+    color: rgb(141, 141, 141);
+    font-weight: 500;
+}
+
+.motsTitle {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.motsText {
+    display: inline;
+    color: rgb(146, 146, 146);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.loremText {
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(146, 146, 146);
+}
+
+.download {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.download .bx{
+   font-size: 20px;
+   margin-right: 5px;
+}
+
+.price1 {
+    margin-right: 30px;
+}
+
+.price1 .valuta {
+    font-size: 17px;
+    color: #222;
+}
+.price1 span{
+    margin-right: 10px;
+    color: rgb(109, 109, 109);
+}
+
+.infoText {
+    font-weight: 600;
+    color: rgb(141, 141, 141);
+    margin: 0;
+}
+
+.infoTexts {
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+    margin-bottom: 35px;
+}
+
+.wishlistText {
+    color: #0096d9;
+}
+
+
+
+
